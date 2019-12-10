@@ -69,7 +69,8 @@ main.home {
 }
 
 
-input { border: 1px solid #ccc;}
+input { border: 1px solid #ccc; min-height: 2em; width: 100%;}
+input.submit { width: auto;}
 .submit { background-color: #80d8c2; font-size: 1em; color: #fff; padding: 10px 30px; margin-top: 25px;}
 .meme-container {
 	position: relative;
