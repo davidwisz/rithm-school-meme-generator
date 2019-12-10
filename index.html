@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+	<head>
+		<title>MEME GENERATOR</title>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Fjalla+One|Gravitas+One|Raleway:400,700,600,800' rel='stylesheet' type='text/css'>
+		<link href="assets/wisz.css" media="screen" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<header>
+			<hgroup>
+				<h1 class="heading-header accent-text">Meme Generator</h1>
+			</hgroup>
+		</header>
+		<main class="home" role="main">
+			<section class="section">
+				<p>All fields are required.</p>
+				<form id="mg-form">
+					<label for="mg-img">Image URL</label><br/>
+					<input id="mg-img" name="mg-img" type="text"/><br/><br/>
+					<label for="mg-top-text">Headline</label><br/>
+					<input id="mg-top-text" name="mg-top-text" type="text"/><br/><br/>
+					<label for="mg-bottom-text">Punchline</label><br/>
+					<input id="mg-bottom-text" name="mg-bottom-text" type="text"/><br/>
+					<input type="submit" class="submit" value="GENERATE" />
+				</form>
+				<div id="mg-output"></div>
+			</section>
+		</main>
+		<script src="assets/meme-generator.js"></script>
+	</body>
+</html>
